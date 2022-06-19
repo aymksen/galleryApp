@@ -1,22 +1,16 @@
 import "./App.scss";
-
-import { Gradient } from "whatamesh";
-
-
-
-
-
+import PinterestLayout from "./components/PinterestLayout";
 function App() {
-  const gradient = new Gradient();
-  gradient.initGradient("#gradient-canvas");
+  
   return (
-    
-    <div className="App" >
-      <div className="txt">Hello s world</div>
-      <canvas id="gradient-canvas" data-transition-in />
-      
-    </div>
-    
+      <div className="App">
+         
+      <div className="txt">My Gallery</div>
+      <div className="container" >
+      <PinterestLayout/>
+      </div>
+      <div className="bottom"></div>
+      </div>
   );
  
 }

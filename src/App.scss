@@ -1,19 +1,21 @@
 .App {
+  
   .txt {
     font-size: 90px;
-    color: rgb(129, 50, 119);
-    left: 40%;
-    top:10%;
-    position: absolute;
+    color: #837381;
     z-index: 100;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    text-align: center;
+   
   }
-}
-#gradient-canvas {
-  width: 100%;
-  height: 100%;
-  --gradient-color-1: #e60086; 
-  --gradient-color-2: #7a04b9; 
-  --gradient-color-3: #10008a;  
-  --gradient-color-4: #07003d;
-  position: fixed;
+  .container{
+    position: relative;
+    margin-bottom:'20px';
+    
+  }
+  .bottom{
+    //width: 100vw;
+    height: 500px;
+  }
 }
