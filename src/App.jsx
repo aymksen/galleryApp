@@ -7,7 +7,7 @@ function App() {
   return (
       <div className="App">
           
-      <div className="txt">My Gallery</div>
+      <div className="txt">Gallery</div>
       <div className="container" >
       <PinterestLayout/>
       </div>
