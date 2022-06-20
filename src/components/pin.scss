@@ -6,20 +6,21 @@
     background-color: #837381;
     position: relative;
     display: grid;
-    grid-template-columns: repeat(auto-fill, 250px);
+    grid-template-columns: repeat(auto-fill, 380px);
     grid-auto-rows: 10px;
     justify-content: center;
     height: auto;
     .small {
-        grid-row-end: span 26;
+        grid-row-end: span 40;
+        
         
      }
      .medium {
-        grid-row-end: span 33;
+        grid-row-end: span 50;
        
      }
      .large {
-        grid-row-end: span 45;
+        grid-row-end: span 60;
         
      }
     .pin{
@@ -28,6 +29,12 @@
         padding: 0;
         border-radius: 16px;
         background-color:rgba(255, 255, 255, 0.548);
+        &:hover{
+                opacity: 0.8;
+                transform: scale(1.05);
+                transition: all 0.3s;
+
+        }
     }
     .pin img {
         border-radius: 16px;

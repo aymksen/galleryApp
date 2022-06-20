@@ -1,40 +1,25 @@
-import React from "react";
+import { React , useState ,useEffect } from "react";
 import "./pin.scss";
+import { pins } from "./data/data.js";
 
 export default function PinterestLayout() {
+
+  
+  const [data, setData] = useState([]);
+  useEffect(() => { 
+      setData(pins);
+  },[]);
+
   return (
     <div className="picContainer">
 
-    <div className="pin medium" ><img src="https://www.quanzhanketang.com/css/paris.jpg" alt="" /></div>
-    <div className="pin small"></div>
-    <div className="pin large"></div>
-    <div className="pin medium"></div>
-    <div className="pin medium"></div>
-    <div className="pin small"></div>
-    <div className="pin large"></div>
-    <div className="pin small"></div>
-    <div className="pin medium"></div>
-    <div className="pin small"></div>
-    <div className="pin medium"></div>
-    <div className="pin large"></div>
-    <div className="pin small"></div>
-    <div className="pin medium"></div>
-    <div className="pin large"></div>
-    <div className="pin small"></div>
-    <div className="pin large"></div>
-    <div className="pin small"></div>
-    <div className="pin medium"></div>
-    <div className="pin small"></div>
-    <div className="pin medium"></div>
-    <div className="pin large"></div>
-    <div className="pin small"></div>
-    <div className="pin small"></div>
-    <div className="pin medium"></div>
-    <div className="pin large"></div>
-    <div className="pin small"></div>
-    <div className="pin medium"></div>
-    <div className="pin large"></div>
-    <div className="pin small"></div>
+    {/* <div className="pin medium" ><img src={img} alt="" /></div> */}
+   {data.map((id) => (
+          <div className={"pin " + (id.style)}>
+            <img src={id.img} alt="" />
+        
+          </div>
+        ))}
 
     </div>
   );
