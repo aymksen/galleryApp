@@ -41,7 +41,8 @@
         font-family: "Varela Round", sans-serif;
         margin: 0px;
         padding: 0px;
-        position: absolute;
+        max-width: 1920px;
+        min-height: 100vh;
         background: var(--bg-gradient);
    
       }
@@ -50,9 +51,8 @@
   </head>
   <body>
     <canvas class="orb-canvas"></canvas>
-    <div class="overlay">
     <div id="root"></div>
-  </div>
+
     <script type="module" src="./script.js"></script>
   </body>
 </html>
