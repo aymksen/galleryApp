@@ -16,7 +16,7 @@ export default function PinterestLayout() {
     {/* <div className="pin medium" ><img src={img} alt="" /></div> */}
    {data.map((id) => (
           <div className={"pin " + (id.style)}>
-            <img src={id.img} alt="" />
+            <img id="img" src={id.img} alt="" />
         
           </div>
         ))}

@@ -1,4 +1,30 @@
+*{
+  cursor: url("cursor1.png") 39 39, auto;
+  --pointer: url("cursor2.png") 30 30, auto;
+
+   ::-webkit-scrollbar {
+        width: 10px;
+      }
+
+      /* Track */
+      ::-webkit-scrollbar-track {
+        background: antiquewhite;
+      }
+
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        background: #837381;
+        border-radius: 20px;
+      }
+
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+      }
+}
+
 .App {
+  
   .txt {
     font-size: 90px;
     color: #837381;
@@ -6,6 +32,10 @@
     margin-bottom: 40px;
     margin-top: 20px;
     text-align: center;
+    @media only screen and (max-width: 767px) {
+      margin-top: 40px;
+      font-size: 60px;
+    }
   }
   .container {
     
