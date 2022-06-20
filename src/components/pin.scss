@@ -2,7 +2,10 @@
 
 .picContainer {
     margin: 0px auto 0px auto;
-    padding: 10px 15px 0px 15px;
+    padding: 30px 15px 0px 15px;
+    @media only screen and (max-width: 767px) {
+      padding: 10px 15px 0px 15px;
+    }
     border-radius: 32px;
     width: 80vw;
     position: relative;
