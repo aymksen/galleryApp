@@ -9,7 +9,6 @@ function App() {
       <div className="container" >
       <PinterestLayout/>
       </div>
-      <div className="bottom"></div>
       </div>
   );
  

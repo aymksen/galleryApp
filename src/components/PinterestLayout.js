@@ -1,7 +1,6 @@
 import { React , useState ,useEffect } from "react";
 import "./pin.scss";
 import { pins } from "./data/data.js";
-
 export default function PinterestLayout() {
 
   

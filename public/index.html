@@ -16,17 +16,44 @@
     <title>Gallery App</title>
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+      :root {
+  --dark-color: hsl(var(--hue), 100%, 9%);
+  --light-color: hsl(var(--hue), 95%, 98%);
+  --base: hsl(var(--hue), 95%, 50%);
+  --complimentary1: hsl(var(--hue-complimentary1), 95%, 50%);
+  --complimentary2: hsl(var(--hue-complimentary2), 95%, 50%);
 
+  --font-family: "Poppins", system-ui;
+
+  --bg-gradient: linear-gradient(
+    to bottom,
+    hsl(var(--hue), 95%, 99%),
+    hsl(var(--hue), 95%, 84%)
+  );
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
       body {
-        /* overflow-x: hidden; */
+        overflow-x: hidden; 
         font-family: "Varela Round", sans-serif;
-        margin: 0;
-        padding: 0;
-        background-color: antiquewhite;
+        margin: 0px;
+        padding: 0px;
+        max-width: 1920px;
+        min-height: 100vh;
+        background: var(--bg-gradient);
+   
       }
+      
     </style>
   </head>
   <body>
+    <canvas class="orb-canvas"></canvas>
+    <div class="overlay">
     <div id="root"></div>
+  </div>
+    <script type="module" src="./script.js"></script>
   </body>
 </html>
