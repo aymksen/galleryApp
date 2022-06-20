@@ -6,8 +6,8 @@ function App() {
   
   return (
       <div className="App">
-          
-      <div className="txt">Gallery</div>
+          <a href="https://www.instagram.com/phogotrafy"  target="_blank" rel="noreferrer">
+      <div className="txt">Gallery</div></a>
       <div className="container" >
       <PinterestLayout/>
       </div>

@@ -1,7 +1,7 @@
 *{
   cursor: url("cursor1.png") 39 39, auto;
   --pointer: url("cursor2.png") 30 30, auto;
-
+  --pointer1: url("cursor3.png") 30 30, auto;
    ::-webkit-scrollbar {
         width: 10px;
       }
@@ -24,8 +24,12 @@
 }
 
 .App {
-  
+  a {
+    color: inherit; 
+    text-decoration: inherit; 
+  }
   .txt {
+    cursor: var(--pointer1);
     font-size: 90px;
     color: #735ece;
     z-index: 100;
@@ -36,6 +40,7 @@
       padding-top: 40px;
       font-size: 60px;
     }
+    
   }
   .container {
     padding-bottom: 100px;
