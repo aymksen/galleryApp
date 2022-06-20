@@ -8,18 +8,18 @@
 
       /* Track */
       ::-webkit-scrollbar-track {
-        background: #faebd7;
+        background: hsl(270, 100%, 98%),;
       }
 
       /* Handle */
       ::-webkit-scrollbar-thumb {
-        background: #837381;
+        background: #735ece;
         border-radius: 20px;
       }
 
       /* Handle on hover */
       ::-webkit-scrollbar-thumb:hover {
-        background: #555;
+        background: rgb(86, 32, 156)
       }
 }
 
