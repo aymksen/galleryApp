@@ -8,6 +8,7 @@
 <img align="center" src="https://user-images.githubusercontent.com/76121581/175861476-68aa85ba-9139-486f-b0cd-ab977f5b78ea.gif" alt="gif" width="1000"/>
 
 <h2 align="center">Hover effect</h2>
-<img align="center" src="https://user-images.githubusercontent.com/76121581/175861737-a7b1fe99-fee8-44d9-8a23-68bbf1a7597b" alt="gif" width="1000"/>
+<img align="center" src="https://user-images.githubusercontent.com/76121581/175862143-cf8c81cb-d5ce-4161-8210-09dfe6c0abb4.gif" alt="gif" width="1000"/>
+
 
 
